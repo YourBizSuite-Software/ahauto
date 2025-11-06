@@ -6,10 +6,10 @@ const idle = "text-gray-700 hover:bg-gray-200";
 
 export default function Navbar() {
   return (
-    <header className="bg-white shadow">
+    <header className="bg-amber-500 shadow">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="text-xl font-bold tracking-tight">
-          Power<span className="text-red-600">N</span>Drive
+          AH <span className="text-[#4B1C4A]">AUTO</span> Services
         </Link>
         <nav className="flex gap-2">
           <NavLink to="/" end className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Home</NavLink>

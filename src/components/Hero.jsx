@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <section className="relative bg-black text-white">
+    <section className="relative bg-[#4B1C4A] text-white">
       <div className="container py-20">
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
           Find Your Next Ride
